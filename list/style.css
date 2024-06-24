@@ -1,0 +1,61 @@
+:root {
+    --black: #000;
+    --black2: #353131;
+    --white: #fff;
+}
+
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: var(--black);
+    color: var(--white);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4rem;
+}
+
+.conteudo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4rem;
+}
+
+.conteudo-inten {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+#novoitems {
+    width: 20rem;
+    border-radius: 1rem;
+    border: none;
+    font-size: 1rem;
+    outline: none;
+    padding: 1rem;
+}
+
+#btn-new-iten {
+    border: none;
+    font-size: 1rem;
+    outline: none;
+    padding: 1rem;
+    background-color: var(--black2);
+    cursor: pointer;
+    border-radius: 1rem;
+}
+
+#btn-new-iten:hover {
+    background-color: var(--white);
+    transition: 1.2s;
+}
+
+#to-do-list {
+    list-style-type: none;
+    font-size: 1.4rem;
+    text-transform: capitalize;
+    display: grid;
+    justify-content: space-around;
+}
